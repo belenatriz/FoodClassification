@@ -12,6 +12,8 @@ def load_food_dataset(cache_path: str = None):
     :return: dataset object
     """
 
-    dataset = load_dataset("Kaludi/food-category-classification-v2.0",
-                           cache_dir=cache_path)
+    dataset = load_dataset(
+        "Kaludi/food-category-classification-v2.0", cache_dir=cache_path
+    )
+
     return dataset
